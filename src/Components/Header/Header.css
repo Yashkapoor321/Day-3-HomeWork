@@ -1,0 +1,36 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    margin-left: 50px;
+    padding-left: 25px;
+    text-align: center;
+}
+.heading > h1{
+    color: brown;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 36px;
+}
+.heading > p{
+    font-size: 12px;
+    margin-top: 8px;
+    word-spacing: 1px;
+}
+.navbar{
+    display: flex;
+    width: 90vw;
+    margin-top: 40px;    
+    flex-direction: row;
+    margin-left: 50px;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* border: 2px solid red; */
+    background-color: gray;
+    padding: 20px 25px;
+    font-weight: bolder;
+    color: aqua;
+}
